@@ -5,11 +5,11 @@ export const maquinasytecnologia=[{
 },
 {nombre: "Tablet Android",
  precio: 20,
- disponible: tue   
+ disponible: true   
 },
 {nombre: "Portátil HP",
 precio: 100,
-disponible: true;    
+disponible: true,    
 }
 ];
 export const materialDeportivo=[{
