@@ -2,7 +2,8 @@ import './style.css'
 import { maquinasytecnologia } from './secciones';
 import { materialDeportivo } from './secciones';
 import { gastronomia } from './secciones';
-const main=document.querySelector('main');   
+const section=document.querySelector('section');
+section.innerHTML="";   
 const tecno=document.querySelector('#tecno');
   const sport=document.querySelector('#sport');
 const foods=document.querySelector('#foods');
@@ -16,7 +17,7 @@ article.innerHTML=`
 <p>${producto.precio}</p>
 <p>${producto.disponible}</p>
 `
-main.appendChild(article);
+section.appendChild(article);
   }
 });
 sport.addEventListener("click", ()=>{
