@@ -2,12 +2,12 @@ import './style.css'
 import { maquinasytecnologia } from './secciones';
 import { materialDeportivo } from './secciones';
 import { gastronomia } from './secciones';
-const section=document.querySelector('section');
-section.innerHTML="";   
+const section=document.querySelector('section');   
 const tecno=document.querySelector('#tecno');
   const sport=document.querySelector('#sport');
 const foods=document.querySelector('#foods');
 tecno.addEventListener("click", ()=>{
+  section.innerHTML="";
   for (let i=0; i<maquinasytecnologia.length; i++){
     const producto = maquinasytecnologia[i]; 
 const article=document.createElement('article');
@@ -21,6 +21,7 @@ section.appendChild(article);
   }
 });
 sport.addEventListener("click", ()=>{
+  section.innerHTML="";
   for (let i=0; i<materialDeportivo.length; i++){
     const producto2=materialDeportivo[i];
  const article2=document.createElement('article');
@@ -30,10 +31,11 @@ sport.addEventListener("click", ()=>{
  <p>${producto2.precio}</p>
  <p>${producto2.disponible}</p>
  `
-section.appendChild(article2);
+ section.appendChild(article2);
   }
 })
 foods.addEventListener("click", ()=>{
+  section.innerHTML="";
   for (let i=0; i<gastronomia.length; i++){
     const producto3 = gastronomia[i];
   const article3=document.createElement('article');
