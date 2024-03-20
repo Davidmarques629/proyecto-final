@@ -7,7 +7,7 @@ export const maquinasytecnologia=[{
 {nombre: "Tablet Android",
 imagen: "https://res-console.cloudinary.com/djf4aknul/thumbnails/v1/image/upload/v1710878277/VGFibGV0X0FuZHJvaWRfb2ttbXU2/preview",
 precio: 20 + "€",
- disponible: "Didponible: " + true   
+ disponible: "Diponible: " + true   
 },
 {nombre: "Portátil HP",
 imagen: "https://res-console.cloudinary.com/djf4aknul/thumbnails/v1/image/upload/v1710878167/UG9ydMOhdGlsX0hQX3NkOWMzaQ==/preview",
