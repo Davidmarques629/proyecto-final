@@ -12,6 +12,7 @@ tecno.addEventListener("click", ()=>{
 const article=document.createElement('article');
 article.innerHTML=`
 <p>${producto.nombre}</p>
+<img src=${producto.imagen} alt=${producto.nombre}/>
 <p>${producto.precio}</p>
 <p>${producto.disponible}</p>
 `
@@ -24,6 +25,7 @@ sport.addEventListener("click", ()=>{
  const article2=document.createElement('article');
  article2.innerHTML=`
  <p>${producto2.nombre}</p>
+ <img src=${producto2.imagen} alt=${producto2.nombre}/>
  <p>${producto2.precio}</p>
  <p>${producto2.disponible}</p>
  `
@@ -36,6 +38,7 @@ foods.addEventListener("click", ()=>{
   const article3=document.createElement('article');
   article3.innerHTML=`
   <p>${producto3.nombre}</p>
+  <img src=${producto3.imagen} alt=${producto3.nombre}/>
   <p>${producto3.precio}</p>
   <p>${producto3.disponible}</p>
   `
