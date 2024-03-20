@@ -30,7 +30,7 @@ sport.addEventListener("click", ()=>{
  <p>${producto2.precio}</p>
  <p>${producto2.disponible}</p>
  `
-main.appendChild(article2);
+section.appendChild(article2);
   }
 })
 foods.addEventListener("click", ()=>{
@@ -43,6 +43,6 @@ foods.addEventListener("click", ()=>{
   <p>${producto3.precio}</p>
   <p>${producto3.disponible}</p>
   `
-  main.appendChild(article3);
+  section.appendChild(article3);
   }
 })
