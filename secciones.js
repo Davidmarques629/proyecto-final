@@ -1,45 +1,45 @@
 export const maquinasytecnologia=[{
    nombre: "Bitcoin Myner",
- imagen: "https://res-console.cloudinary.com/djf4aknul/thumbnails/v1/image/upload/v1710878296/TcOhcXVpbmFfcGFyYV9taW5hcl9iaXRjb2luX2g4dWp0aw==/grid_landscape",  
+   imagen: "https://i.ibb.co/1Kf1jym/M-quina-para-minar-bitcoin.jpg",
    precio: 69 + "€",
    disponible: "Disponible: " + true 
 },
 {nombre: "Tablet Android",
-imagen: "https://res-console.cloudinary.com/djf4aknul/thumbnails/v1/image/upload/v1710878277/VGFibGV0X0FuZHJvaWRfb2ttbXU2/preview",
+imagen: "https://i.ibb.co/qjHM1gd/Tablet-Android.jpg",
 precio: 20 + "€",
  disponible: "Diponible: " + true   
 },
 {nombre: "Portátil HP",
-imagen: "https://res-console.cloudinary.com/djf4aknul/thumbnails/v1/image/upload/v1710878167/UG9ydMOhdGlsX0hQX3NkOWMzaQ==/preview",
+imagen: "https://i.ibb.co/Jrc2y1B/Port-til-HP.jpg",
 precio: 100 + "€",
 disponible: "Disponible: " + true    
 }
 ];
 export const materialDeportivo=[{
 nombre: "Balón de fútbol",
-imagen: "https://res-console.cloudinary.com/djf4aknul/thumbnails/v1/image/upload/v1710878137/QmFsw7NuX2RlX2bDunRib2xfeWdyYW51/preview",
+imagen: "https://i.ibb.co/FxnHFkK/Bal-n-de-f-tbol.jpg",
 precio: 10 + "€",
 disponible: "Disponible: " + true    
 },
 {nombre: "Balón de baloncesto",
-imagen: "https://res-console.cloudinary.com/djf4aknul/thumbnails/v1/image/upload/v1710878043/QmFsw7NuX2RlX2JhbG9uY2VzdG9famluMjRl/preview",
+imagen: "https://i.ibb.co/8xtLtqG/Bal-n-de-baloncesto.jpg",
   precio: 7 + "€",
   disponible: "Disponible: " + true   
 }
 ];
 export const gastronomia=[{
 nombre: "Bandeja de sushi 10 piezas",
-imagen: "https://res-console.cloudinary.com/djf4aknul/thumbnails/v1/image/upload/v1710878194/QmFuZGVqYV9kZV9zdXNoaV8xMF9waWV6YXNfbGdhd2Z2/preview",
+imagen: "https://i.ibb.co/w74tMcF/Bandeja-de-sushi-10-piezas.jpg",
 precio: 6 + "€",
 disponible: "Disponible: " + true
 },
     {nombre: "Hamburguesa de carne con queso, cebolla, tomane y pepinillos",
-    imagen: "https://res-console.cloudinary.com/djf4aknul/thumbnails/v1/image/upload/v1710878545/SGFtYnVyZ3Vlc2FfaXN4eG01/preview",
-   precio: 5 + "€",
+    imagen: "https://i.ibb.co/FWSny2r/Hamburguesa.jpg",
+    precio: 5 + "€",
    disponible: "Disponible: " + true
 },
 {nombre: "Kevap de ternera con tomate, lechuga y cebolla",
-imagen: "https://res-console.cloudinary.com/djf4aknul/thumbnails/v1/image/upload/v1710878512/S2V2YXBfcHJ4anF4/preview",
+imagen: "https://i.ibb.co/5XQ1Jb2/Kevap.jpg",
 precio: 15 + "€",
 disponible: "Disponible: " + true
 }
